@@ -2,7 +2,7 @@
 
 **Quick install:** give your agent this URL and ask it to install the skill:
 
-https://github.com/yatima1460/MacStorageAuditSkill/blob/main/AGENTS.md
+https://raw.githubusercontent.com/yatima1460/MacStorageAuditSkill/main/AGENTS.md
 
 A Codex skill that returns a **standalone `.html` report of your Mac's storage**: the largest consumers in an expandable tree, container images, and unreconciled space. Responsive, offline, with automatic system light/dark mode. It does not delete anything.
 
