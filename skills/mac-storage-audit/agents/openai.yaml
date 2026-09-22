@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mac Storage Audit"
+  short_description: "Parallel Mac storage audit with HTML tree reports"
+  default_prompt: "Use $mac-storage-audit to find the largest storage consumers and create an HTML report with unreconciled space."
