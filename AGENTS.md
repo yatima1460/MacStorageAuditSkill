@@ -1,10 +1,10 @@
-# Installing this skill
+# Install Mac Storage Audit
 
-The installable skill is `skills/mac-storage-audit`. Read its `SKILL.md` before using it.
+Install the Mac Storage Audit skill from https://github.com/yatima1460/MacStorageAuditSkill into the user's Codex skills directory. When the user provides this file or its URL for installation, perform the installation, then explain how to run the skill.
 
-When the user asks to install this repository's skill:
+Follow these steps:
 
-1. Determine the skills directory: `$CODEX_HOME/skills` when `CODEX_HOME` is set, otherwise `~/.codex/skills`.
+1. Download or clone the repository into a temporary directory if it is not already available locally. Read `skills/mac-storage-audit/SKILL.md`. Determine the destination: `$CODEX_HOME/skills` when `CODEX_HOME` is set, otherwise `~/.codex/skills`.
 2. Copy **only** `skills/mac-storage-audit` into that directory as `mac-storage-audit`, including `agents`, `scripts`, and `references`. Exclude generated caches such as `__pycache__`. Do not copy repository Git history, tests, or local report/evidence files into the installation.
 3. If an installation already exists, inspect it before replacing files. Preserve unrelated skills and local customizations unless updating them is authorized.
 4. Verify the installed `SKILL.md`, both helper scripts, `agents/openai.yaml`, and `references/report-input.md` exist. Do not run a disk audit merely to verify installation.
